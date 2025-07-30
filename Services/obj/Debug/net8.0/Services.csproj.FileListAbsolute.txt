@@ -1,0 +1,17 @@
+D:\billx\Services\bin\Debug\net8.0\Services.deps.json
+D:\billx\Services\bin\Debug\net8.0\Services.dll
+D:\billx\Services\bin\Debug\net8.0\Services.pdb
+D:\billx\Services\bin\Debug\net8.0\BusinessObject.dll
+D:\billx\Services\bin\Debug\net8.0\DataAccessObject.dll
+D:\billx\Services\bin\Debug\net8.0\BusinessObject.pdb
+D:\billx\Services\bin\Debug\net8.0\DataAccessObject.pdb
+D:\billx\Services\obj\Debug\net8.0\Services.csproj.AssemblyReference.cache
+D:\billx\Services\obj\Debug\net8.0\Services.GeneratedMSBuildEditorConfig.editorconfig
+D:\billx\Services\obj\Debug\net8.0\Services.AssemblyInfoInputs.cache
+D:\billx\Services\obj\Debug\net8.0\Services.AssemblyInfo.cs
+D:\billx\Services\obj\Debug\net8.0\Services.csproj.CoreCompileInputs.cache
+D:\billx\Services\obj\Debug\net8.0\Services.csproj.Up2Date
+D:\billx\Services\obj\Debug\net8.0\Services.dll
+D:\billx\Services\obj\Debug\net8.0\refint\Services.dll
+D:\billx\Services\obj\Debug\net8.0\Services.pdb
+D:\billx\Services\obj\Debug\net8.0\ref\Services.dll

@@ -1,0 +1,14 @@
+D:\billx\BusinessObject\bin\Debug\net8.0\BusinessObject.deps.json
+D:\billx\BusinessObject\bin\Debug\net8.0\BusinessObject.runtimeconfig.json
+D:\billx\BusinessObject\bin\Debug\net8.0\BusinessObject.dll
+D:\billx\BusinessObject\bin\Debug\net8.0\BusinessObject.pdb
+D:\billx\BusinessObject\obj\Debug\net8.0\BusinessObject.csproj.AssemblyReference.cache
+D:\billx\BusinessObject\obj\Debug\net8.0\BusinessObject.GeneratedMSBuildEditorConfig.editorconfig
+D:\billx\BusinessObject\obj\Debug\net8.0\BusinessObject.AssemblyInfoInputs.cache
+D:\billx\BusinessObject\obj\Debug\net8.0\BusinessObject.AssemblyInfo.cs
+D:\billx\BusinessObject\obj\Debug\net8.0\BusinessObject.csproj.CoreCompileInputs.cache
+D:\billx\BusinessObject\obj\Debug\net8.0\BusinessObject.dll
+D:\billx\BusinessObject\obj\Debug\net8.0\refint\BusinessObject.dll
+D:\billx\BusinessObject\obj\Debug\net8.0\BusinessObject.pdb
+D:\billx\BusinessObject\obj\Debug\net8.0\BusinessObject.genruntimeconfig.cache
+D:\billx\BusinessObject\obj\Debug\net8.0\ref\BusinessObject.dll
