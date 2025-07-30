@@ -140,6 +140,27 @@
         }
       }
     },
+    "/Api/Account/GetById": {
+      "get": {
+        "tags": [
+          "Account"
+        ],
+        "parameters": [
+          {
+            "name": "accountId",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/Api/Attendance/GetAll": {
       "get": {
         "tags": [
@@ -190,28 +211,6 @@
             "schema": {
               "type": "string"
             }
-          },
-          {
-            "name": "shiftId",
-            "in": "query",
-            "schema": {
-              "type": "string"
-            }
-          },
-          {
-            "name": "date",
-            "in": "query",
-            "schema": {
-              "type": "string",
-              "format": "date"
-            }
-          },
-          {
-            "name": "UId",
-            "in": "query",
-            "schema": {
-              "type": "string"
-            }
           }
         ],
         "responses": {
@@ -220,17 +219,26 @@
             "content": {
               "text/plain": {
                 "schema": {
-                  "$ref": "#/components/schemas/AttendanceResponse"
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/AttendanceResponse"
+                  }
                 }
               },
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/AttendanceResponse"
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/AttendanceResponse"
+                  }
                 }
               },
               "text/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/AttendanceResponse"
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/AttendanceResponse"
+                  }
                 }
               }
             }

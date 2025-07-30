@@ -23,13 +23,17 @@ namespace billx.Controllers
         }
 
         [HttpGet("GetById")]
-        public ActionResult<AttendanceResponse> GetById(string accountId, string shiftId, DateOnly date, string UId)
+        public ActionResult<List<AttendanceResponse>> GetById(string accountId)
         {
-            // Chuyển DateOnly thành DateTime
-            DateTime dateTime = date.ToDateTime(TimeOnly.MinValue);
-
-            AttendanceResponse response = _attendanceservices.GetById(accountId, shiftId, dateTime, UId);
-            return Ok(response);
+            try
+            {
+                var response = _attendanceservices.GetById(accountId);
+                return Ok(response);
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, $"Lỗi hệ thống: {ex.Message}");
+            }
         }
 
 

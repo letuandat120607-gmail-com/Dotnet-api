@@ -14,13 +14,13 @@ namespace Services.InterfaceServices
 
         List<AttendanceResponse> GetAll();
 
-        AttendanceResponse GetById(string accountId, string shiftId, DateTime date, string UId);
+        List<AttendanceResponse> GetById(string accountId);
 
         AttendanceResponse CreateAttendance(AttendanceRequest request);
 
         AttendanceResponse UpdateAttendance(AttendanceRequest request);
 
-        AttendanceResponse DeleteAttendance(string accountId, string shiftId, DateTime date);
+        AttendanceResponse DeleteAttendance(string accountId, string shiftId, DateOnly date);
 
     }
 }

@@ -27,6 +27,22 @@
   },
   {
     "ContainingType": "billx.Controllers.AccountController",
+    "Method": "GetById",
+    "RelativePath": "Api/Account/GetById",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "accountId",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "billx.Controllers.AccountController",
     "Method": "LogIn",
     "RelativePath": "Api/Account/login",
     "HttpMethod": "POST",
@@ -135,26 +151,11 @@
         "Name": "accountId",
         "Type": "System.String",
         "IsRequired": false
-      },
-      {
-        "Name": "shiftId",
-        "Type": "System.String",
-        "IsRequired": false
-      },
-      {
-        "Name": "date",
-        "Type": "System.DateOnly",
-        "IsRequired": false
-      },
-      {
-        "Name": "UId",
-        "Type": "System.String",
-        "IsRequired": false
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "Services.DTOs.ResponseDTO.AttendanceResponse",
+        "Type": "System.Collections.Generic.List\u00601[[Services.DTOs.ResponseDTO.AttendanceResponse, Services, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",

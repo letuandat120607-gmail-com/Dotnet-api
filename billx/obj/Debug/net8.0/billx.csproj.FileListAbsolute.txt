@@ -169,3 +169,4 @@ D:\billx\billx\obj\Debug\net8.0\refint\billx.dll
 D:\billx\billx\obj\Debug\net8.0\billx.pdb
 D:\billx\billx\obj\Debug\net8.0\billx.genruntimeconfig.cache
 D:\billx\billx\obj\Debug\net8.0\ref\billx.dll
+D:\billx\billx\obj\Debug\net8.0\billx.sourcelink.json

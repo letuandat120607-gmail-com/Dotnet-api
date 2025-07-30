@@ -17,6 +17,7 @@ namespace Services.InterfaceServcies
         LogInResponse LogIn(LogInRequest request);
 
         Account DeleteAccount(string id);
+        AccountResponse GetAccountById(string accountId);
 
     }
 
