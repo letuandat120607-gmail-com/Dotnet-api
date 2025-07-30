@@ -58,13 +58,13 @@ namespace Services.ImplementServices
             {
                 StoreDAO storeDAO = StoreDAO.Instance;
                 List<Store> rs = storeDAO.GetAll();
-                if (rs == null) 
-                { 
+                if (rs == null || rs.Count == 0)
+                {
                     return new List<StoreResponse>();
                 }
 
                 List<StoreResponse> stores = new List<StoreResponse>();
-                for (int i = 0; i < stores.Count; i++) 
+                for (int i = 0; i < rs.Count; i++) // ← dùng rs.Count thay vì stores.Count
                 {
                     Store store = rs[i];
                     StoreResponse response = new StoreResponse
@@ -77,15 +77,16 @@ namespace Services.ImplementServices
                         OpenTime = store.OpenTime,
                         CloseTime = store.CloseTime
                     };
-                    stores.ToList();
+                    stores.Add(response); // ← thêm response vào danh sách
                 }
                 return stores;
             }
             catch (Exception ex)
             {
-                return null;
+                return null; // Có thể log lỗi ra để dễ debug hơn
             }
         }
+
 
         public StoreResponse GetById(string id)
         {

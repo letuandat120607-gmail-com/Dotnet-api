@@ -59,9 +59,21 @@ namespace Services.ImplementServices
             }
         }
 
-        public AttendanceResponse DeleteAttendance(string accountId, string shiftId, DateTime date)
+        public AttendanceResponse DeleteAttendance(string accountId, string shiftId, DateOnly date)
         {
-            throw new NotImplementedException();
+            AttendanceDAO attendanceDAO = AttendanceDAO.Instance;
+
+            var result = attendanceDAO.Delete(accountId, shiftId, date);
+
+            return new AttendanceResponse
+            {
+                AccountId = result.AccountId,
+                ShiftId = result.ShiftId,
+                Otstart = result.Otstart,
+                Otend = result.Otend,
+                Date = result.Date,
+                status = result.Status
+            };
         }
 
         public List<AttendanceResponse> GetAll()
@@ -101,10 +113,8 @@ namespace Services.ImplementServices
             }
         }
 
-        public AttendanceResponse GetById(string accountId, string shiftId, DateTime date, string UId)
-        {
-            throw new NotImplementedException();
-        }
+        
+
 
         public AttendanceResponse UpdateAttendance(AttendanceRequest request)
         {
@@ -140,5 +150,34 @@ namespace Services.ImplementServices
                 throw new CrudException(HttpStatusCode.InternalServerError, "Lỗi hệ thống!", ex?.Message);
             }
         }
+
+        public List<AttendanceResponse> GetById(string accountId)
+        {
+            try
+            {
+                AttendanceDAO attendanceDAO = AttendanceDAO.Instance;
+
+                List<Attendance> attendances = attendanceDAO.GetById(accountId);
+
+                return attendances.Select(a => new AttendanceResponse
+                {
+                    AccountId = a.AccountId,
+                    ShiftId = a.ShiftId,
+                    Otstart = a.Otstart,
+                    Otend = a.Otend,
+                    Date = a.Date,
+                    status = a.Status
+                }).ToList();
+            }
+            catch (CrudException cex)
+            {
+                throw cex;
+            }
+            catch (Exception ex)
+            {
+                throw new CrudException(System.Net.HttpStatusCode.InternalServerError, "Lỗi hệ thống!", ex?.Message);
+            }
+        }
+
     }
 }

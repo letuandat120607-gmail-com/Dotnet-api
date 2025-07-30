@@ -5,6 +5,7 @@ using Microsoft.AspNetCore.HttpLogging;
 using Microsoft.AspNetCore.Mvc;
 using Services.DTOs.RequestDTO;
 using Services.DTOs.ResponseDTO;
+using Services.ImplementServcies;
 using Services.InterfaceServcies;
 
 namespace billx.Controllers
@@ -45,6 +46,15 @@ namespace billx.Controllers
             Account response = _accountservices.DeleteAccount(id);
             return Ok(response);
 
+        }
+        [HttpGet("GetById")]
+        public IActionResult GetById(string accountId)
+        {
+            var result = _accountservices.GetAccountById(accountId);
+            if (result == null)
+                return NotFound();
+
+            return Ok(result);
         }
     }
 }

@@ -113,5 +113,14 @@ namespace DataAccessObject
             }
         }
 
+        public List<Attendance> GetById(string accountId)
+        {
+            using (var context = new FinalProjectGreaterContext())
+            {
+                return context.Attendances
+                              .Where(a => a.AccountId == accountId)
+                              .ToList();
+            }
+        }
     }
 }

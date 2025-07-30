@@ -55,7 +55,34 @@ namespace Services.ImplementServcies
                 throw new CrudException(HttpStatusCode.InternalServerError, "Lỗi hệ thống!", ex?.Message);
             }
         }
+        public AccountResponse GetAccountById(string accountId)
+        {
+            using var db = new FinalProjectGreaterContext();
 
+            var account = db.Accounts
+                .Where(a => a.AccountId == accountId)
+                .Select(a => new AccountResponse
+                {
+                    AccountId = a.AccountId,
+                    FullName = a.FullName,
+                    UserName = a.UserName,
+                    Gender = a.Gender,
+                    DateOfBirth = a.DateOfBirth,
+                    Email = a.Email,
+                    PhoneNumber = a.PhoneNumber,
+                    AvatarLink = a.AvatarLink,
+                    GoogleId = a.GoogleId,
+                    CreateDate = a.CreateDate,
+                    IsWorking = a.IsWorking,
+                    Status = a.Status,
+                    RoleName = a.Role.RoleName,
+                    StoreName = a.Store.StoreName,
+                    CardCode = a.CardId
+                })
+                .FirstOrDefault();
+
+            return account!;
+        }
         public Account DeleteAccount(string id)
         {
             try

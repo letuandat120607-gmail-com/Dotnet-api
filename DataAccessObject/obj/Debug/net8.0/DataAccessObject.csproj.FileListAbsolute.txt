@@ -13,3 +13,4 @@ D:\billx\DataAccessObject\obj\Debug\net8.0\DataAccessObject.dll
 D:\billx\DataAccessObject\obj\Debug\net8.0\refint\DataAccessObject.dll
 D:\billx\DataAccessObject\obj\Debug\net8.0\DataAccessObject.pdb
 D:\billx\DataAccessObject\obj\Debug\net8.0\ref\DataAccessObject.dll
+D:\billx\DataAccessObject\obj\Debug\net8.0\DataAccessObject.sourcelink.json

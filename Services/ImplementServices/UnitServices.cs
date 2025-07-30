@@ -54,7 +54,7 @@ namespace Services.ImplementServices
                 }
 
                 List<UnitResponse> units = new List<UnitResponse>();
-                for (int i = 0; i < units.Count; i++) 
+                for (int i = 0; i < rs.Count; i++) 
                 {
                     Unit unit = rs[i];
                     UnitResponse response = new UnitResponse
@@ -63,7 +63,7 @@ namespace Services.ImplementServices
                         StoreId = unit.StoreId,
                         UnitName = unit.UnitName
                     };
-                    units.ToList();
+                    units.Add(response);
                 }
                 return units;
             }
