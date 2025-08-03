@@ -96,7 +96,7 @@
               "RelativeDocumentMoniker": "Services\\ImplementServices\\UnitServices.cs",
               "ToolTip": "D:\\billx\\Services\\ImplementServices\\UnitServices.cs",
               "RelativeToolTip": "Services\\ImplementServices\\UnitServices.cs",
-              "ViewState": "AgIAACwAAAAAAAAAAAA9wEIAAAARAAAAAAAAAA==",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAowEIAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-30T16:07:59.958Z",
               "EditorCaption": ""
@@ -111,8 +111,7 @@
               "RelativeToolTip": "DataAccessObject\\StoreDAO.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAACYAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-30T16:02:35.502Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-30T16:02:35.502Z"
             },
             {
               "$type": "Document",
@@ -124,8 +123,7 @@
               "RelativeToolTip": "Services\\DTOs\\ResponseDTO\\StoreResponse.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-30T16:02:09.604Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-30T16:02:09.604Z"
             },
             {
               "$type": "Document",
@@ -137,8 +135,7 @@
               "RelativeToolTip": "Services\\InterfaceServices\\IStoreServices.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAAA0AAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-30T16:02:05.982Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-30T16:02:05.982Z"
             },
             {
               "$type": "Document",
@@ -150,8 +147,7 @@
               "RelativeToolTip": "Services\\ImplementServices\\StoreServices.cs",
               "ViewState": "AgIAAGcAAAAAAAAAAAAiwFMAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-30T16:01:37.334Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-30T16:01:37.334Z"
             },
             {
               "$type": "Document",
@@ -163,8 +159,7 @@
               "RelativeToolTip": "Services\\DTOs\\ResponseDTO\\AttendanceResponse.cs",
               "ViewState": "AgIAAAQAAAAAAAAAAAAkwBAAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-30T15:40:42.613Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-30T15:40:42.613Z"
             },
             {
               "$type": "Document",
@@ -176,8 +171,7 @@
               "RelativeToolTip": "Services\\ImplementServices\\AccountServices.cs",
               "ViewState": "AgIAADgAAAAAAAAAAAAgwEgAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-30T15:47:07.086Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-30T15:47:07.086Z"
             },
             {
               "$type": "Document",
@@ -189,8 +183,7 @@
               "RelativeToolTip": "Services\\InterfaceServices\\IAccountServices.cs",
               "ViewState": "AgIAAAcAAAAAAAAAAAAmwBAAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-30T15:43:04.078Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-30T15:43:04.078Z"
             },
             {
               "$type": "Document",
@@ -202,8 +195,7 @@
               "RelativeToolTip": "BusinessObject\\Account.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-30T15:42:26.878Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-30T15:42:26.878Z"
             },
             {
               "$type": "Document",
@@ -215,8 +207,7 @@
               "RelativeToolTip": "DataAccessObject\\AccountDAO.cs",
               "ViewState": "AgIAABUAAAAAAAAAAAAowCcAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-30T15:42:19.67Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-30T15:42:19.67Z"
             },
             {
               "$type": "Document",
@@ -228,8 +219,7 @@
               "RelativeToolTip": "Services\\DTOs\\ResponseDTO\\AccountResponse.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAqwAgAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-30T15:42:11.963Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-30T15:42:11.963Z"
             },
             {
               "$type": "Document",
@@ -241,8 +231,7 @@
               "RelativeToolTip": "billx\\Controllers\\AccountController.cs",
               "ViewState": "AgIAACcAAAAAAAAAAAAwwDMAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-30T15:36:08.206Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-30T15:36:08.206Z"
             },
             {
               "$type": "Document",
@@ -254,8 +243,7 @@
               "RelativeToolTip": "Services\\InterfaceServices\\IAttendanceServices.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAADwvxAAAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-30T14:39:11.11Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-30T14:39:11.11Z"
             },
             {
               "$type": "Document",
@@ -267,8 +255,7 @@
               "RelativeToolTip": "DataAccessObject\\ProductTypeDAO.cs",
               "ViewState": "AgIAABkAAAAAAAAAAAAQwCIAAABAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-29T17:55:33.336Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-29T17:55:33.336Z"
             },
             {
               "$type": "Document",
@@ -280,8 +267,7 @@
               "RelativeToolTip": "Services\\ImplementServices\\ProductTypeServices.cs",
               "ViewState": "AgIAACYAAAAAAAAAAAAQwEsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-29T16:36:36.273Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-29T16:36:36.273Z"
             },
             {
               "$type": "Document",
@@ -293,8 +279,7 @@
               "RelativeToolTip": "billx\\Controllers\\ProductController.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAABQAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-29T16:33:01.57Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-29T16:33:01.57Z"
             },
             {
               "$type": "Document",
@@ -306,8 +291,7 @@
               "RelativeToolTip": "Services\\ImplementServices\\AttendanceServices.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-27T13:45:02.395Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-27T13:45:02.395Z"
             },
             {
               "$type": "Document",
@@ -319,8 +303,7 @@
               "RelativeToolTip": "DataAccessObject\\AttendanceDAO.cs",
               "ViewState": "AgIAAFYAAAAAAAAAAAAAAHUAAABCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-30T00:42:55.642Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-30T00:42:55.642Z"
             }
           ]
         }
