@@ -1,0 +1,9 @@
+ssh chees@27.75.93.31
+Bo2182008
+
+docker ps
+docker stop billx
+docker rm billx
+
+docker pull chinxinhgai902/warrior:v2.2
+docker run -d -p 8080:8080 --name warrior chinxinhgai902/warrior:v2.2 .
