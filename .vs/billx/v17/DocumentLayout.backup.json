@@ -3,6 +3,30 @@
   "WorkspaceRootPath": "D:\\billx\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{8E8450D1-8F50-4B0D-9141-91A290EFF4E1}|Services\\Services.csproj|d:\\billx\\services\\implementservices\\productservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E8450D1-8F50-4B0D-9141-91A290EFF4E1}|Services\\Services.csproj|solutionrelative:services\\implementservices\\productservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E8450D1-8F50-4B0D-9141-91A290EFF4E1}|Services\\Services.csproj|d:\\billx\\services\\dtos\\responsedto\\productresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E8450D1-8F50-4B0D-9141-91A290EFF4E1}|Services\\Services.csproj|solutionrelative:services\\dtos\\responsedto\\productresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{374A1088-01EB-4379-BB71-3C391647C108}|DataAccessObject\\DataAccessObject.csproj|d:\\billx\\dataaccessobject\\productdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{374A1088-01EB-4379-BB71-3C391647C108}|DataAccessObject\\DataAccessObject.csproj|solutionrelative:dataaccessobject\\productdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E8450D1-8F50-4B0D-9141-91A290EFF4E1}|Services\\Services.csproj|d:\\billx\\services\\implementservices\\attendanceservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E8450D1-8F50-4B0D-9141-91A290EFF4E1}|Services\\Services.csproj|solutionrelative:services\\implementservices\\attendanceservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E8450D1-8F50-4B0D-9141-91A290EFF4E1}|Services\\Services.csproj|d:\\billx\\services\\dtos\\responsedto\\attendanceresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E8450D1-8F50-4B0D-9141-91A290EFF4E1}|Services\\Services.csproj|solutionrelative:services\\dtos\\responsedto\\attendanceresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E8450D1-8F50-4B0D-9141-91A290EFF4E1}|Services\\Services.csproj|d:\\billx\\services\\implementservices\\storeservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E8450D1-8F50-4B0D-9141-91A290EFF4E1}|Services\\Services.csproj|solutionrelative:services\\implementservices\\storeservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{6F19AD32-185F-4BBF-8579-A3CB55B6B4E8}|billx\\billx.csproj|d:\\billx\\billx\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6F19AD32-185F-4BBF-8579-A3CB55B6B4E8}|billx\\billx.csproj|solutionrelative:billx\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -21,10 +45,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{8E8450D1-8F50-4B0D-9141-91A290EFF4E1}|Services\\Services.csproj|d:\\billx\\services\\implementservices\\unitservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8E8450D1-8F50-4B0D-9141-91A290EFF4E1}|Services\\Services.csproj|solutionrelative:services\\implementservices\\unitservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8E8450D1-8F50-4B0D-9141-91A290EFF4E1}|Services\\Services.csproj|d:\\billx\\services\\implementservices\\storeservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8E8450D1-8F50-4B0D-9141-91A290EFF4E1}|Services\\Services.csproj|solutionrelative:services\\implementservices\\storeservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{374A1088-01EB-4379-BB71-3C391647C108}|DataAccessObject\\DataAccessObject.csproj|d:\\billx\\dataaccessobject\\storedao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -51,14 +71,6 @@
       "RelativeMoniker": "D:0:0:{8E8450D1-8F50-4B0D-9141-91A290EFF4E1}|Services\\Services.csproj|solutionrelative:services\\implementservices\\accountservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8E8450D1-8F50-4B0D-9141-91A290EFF4E1}|Services\\Services.csproj|d:\\billx\\services\\dtos\\responsedto\\attendanceresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8E8450D1-8F50-4B0D-9141-91A290EFF4E1}|Services\\Services.csproj|solutionrelative:services\\dtos\\responsedto\\attendanceresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8E8450D1-8F50-4B0D-9141-91A290EFF4E1}|Services\\Services.csproj|d:\\billx\\services\\implementservices\\attendanceservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8E8450D1-8F50-4B0D-9141-91A290EFF4E1}|Services\\Services.csproj|solutionrelative:services\\implementservices\\attendanceservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{8E8450D1-8F50-4B0D-9141-91A290EFF4E1}|Services\\Services.csproj|d:\\billx\\services\\interfaceservices\\iattendanceservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8E8450D1-8F50-4B0D-9141-91A290EFF4E1}|Services\\Services.csproj|solutionrelative:services\\interfaceservices\\iattendanceservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -82,8 +94,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 10,
+          "SelectedChildIndex": 9,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProductDAO.cs",
+              "DocumentMoniker": "D:\\billx\\DataAccessObject\\ProductDAO.cs",
+              "RelativeDocumentMoniker": "DataAccessObject\\ProductDAO.cs",
+              "ToolTip": "D:\\billx\\DataAccessObject\\ProductDAO.cs",
+              "RelativeToolTip": "DataAccessObject\\ProductDAO.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-12T06:21:27.756Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
@@ -91,14 +116,137 @@
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "IStoreServices.cs",
-              "DocumentMoniker": "D:\\billx\\Services\\InterfaceServices\\IStoreServices.cs",
-              "RelativeDocumentMoniker": "Services\\InterfaceServices\\IStoreServices.cs",
-              "ToolTip": "D:\\billx\\Services\\InterfaceServices\\IStoreServices.cs",
-              "RelativeToolTip": "Services\\InterfaceServices\\IStoreServices.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA0AAAAaAAAAAAAAAA==",
+              "Title": "Account.cs",
+              "DocumentMoniker": "D:\\billx\\BusinessObject\\Account.cs",
+              "RelativeDocumentMoniker": "BusinessObject\\Account.cs",
+              "ToolTip": "D:\\billx\\BusinessObject\\Account.cs",
+              "RelativeToolTip": "BusinessObject\\Account.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-30T16:02:05.982Z"
+              "WhenOpened": "2025-07-30T15:42:26.878Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AccountDAO.cs",
+              "DocumentMoniker": "D:\\billx\\DataAccessObject\\AccountDAO.cs",
+              "RelativeDocumentMoniker": "DataAccessObject\\AccountDAO.cs",
+              "ToolTip": "D:\\billx\\DataAccessObject\\AccountDAO.cs",
+              "RelativeToolTip": "DataAccessObject\\AccountDAO.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAwwCwAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-30T15:42:19.67Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AttendanceDAO.cs",
+              "DocumentMoniker": "D:\\billx\\DataAccessObject\\AttendanceDAO.cs",
+              "RelativeDocumentMoniker": "DataAccessObject\\AttendanceDAO.cs",
+              "ToolTip": "D:\\billx\\DataAccessObject\\AttendanceDAO.cs",
+              "RelativeToolTip": "DataAccessObject\\AttendanceDAO.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAUwC0AAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-30T00:42:55.642Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "StoreDAO.cs",
+              "DocumentMoniker": "D:\\billx\\DataAccessObject\\StoreDAO.cs",
+              "RelativeDocumentMoniker": "DataAccessObject\\StoreDAO.cs",
+              "ToolTip": "D:\\billx\\DataAccessObject\\StoreDAO.cs",
+              "RelativeToolTip": "DataAccessObject\\StoreDAO.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACYAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-30T16:02:35.502Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "D:\\billx\\billx\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "billx\\Controllers\\AccountController.cs",
+              "ToolTip": "D:\\billx\\billx\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "billx\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAwwDQAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-30T15:36:08.206Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AttendanceServices.cs",
+              "DocumentMoniker": "D:\\billx\\Services\\ImplementServices\\AttendanceServices.cs",
+              "RelativeDocumentMoniker": "Services\\ImplementServices\\AttendanceServices.cs",
+              "ToolTip": "D:\\billx\\Services\\ImplementServices\\AttendanceServices.cs",
+              "RelativeToolTip": "Services\\ImplementServices\\AttendanceServices.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAgwCUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-27T13:45:02.395Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProductResponse.cs",
+              "DocumentMoniker": "D:\\billx\\Services\\DTOs\\ResponseDTO\\ProductResponse.cs",
+              "RelativeDocumentMoniker": "Services\\DTOs\\ResponseDTO\\ProductResponse.cs",
+              "ToolTip": "D:\\billx\\Services\\DTOs\\ResponseDTO\\ProductResponse.cs",
+              "RelativeToolTip": "Services\\DTOs\\ResponseDTO\\ProductResponse.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAwwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T06:17:21.873Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProductServices.cs",
+              "DocumentMoniker": "D:\\billx\\Services\\ImplementServices\\ProductServices.cs",
+              "RelativeDocumentMoniker": "Services\\ImplementServices\\ProductServices.cs",
+              "ToolTip": "D:\\billx\\Services\\ImplementServices\\ProductServices.cs",
+              "RelativeToolTip": "Services\\ImplementServices\\ProductServices.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAIwKMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T06:18:26.035Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "IAccountServices.cs",
+              "DocumentMoniker": "D:\\billx\\Services\\InterfaceServices\\IAccountServices.cs",
+              "RelativeDocumentMoniker": "Services\\InterfaceServices\\IAccountServices.cs",
+              "ToolTip": "D:\\billx\\Services\\InterfaceServices\\IAccountServices.cs",
+              "RelativeToolTip": "Services\\InterfaceServices\\IAccountServices.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAmwBAAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-30T15:43:04.078Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "AccountServices.cs",
+              "DocumentMoniker": "D:\\billx\\Services\\ImplementServices\\AccountServices.cs",
+              "RelativeDocumentMoniker": "Services\\ImplementServices\\AccountServices.cs",
+              "ToolTip": "D:\\billx\\Services\\ImplementServices\\AccountServices.cs",
+              "RelativeToolTip": "Services\\ImplementServices\\AccountServices.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAAgwEgAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-30T15:47:07.086Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AttendanceResponse.cs",
+              "DocumentMoniker": "D:\\billx\\Services\\DTOs\\ResponseDTO\\AttendanceResponse.cs",
+              "RelativeDocumentMoniker": "Services\\DTOs\\ResponseDTO\\AttendanceResponse.cs",
+              "ToolTip": "D:\\billx\\Services\\DTOs\\ResponseDTO\\AttendanceResponse.cs",
+              "RelativeToolTip": "Services\\DTOs\\ResponseDTO\\AttendanceResponse.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAswBAAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-30T15:40:42.613Z"
             },
             {
               "$type": "Document",
@@ -114,106 +262,19 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "IStoreServices.cs",
+              "DocumentMoniker": "D:\\billx\\Services\\InterfaceServices\\IStoreServices.cs",
+              "RelativeDocumentMoniker": "Services\\InterfaceServices\\IStoreServices.cs",
+              "ToolTip": "D:\\billx\\Services\\InterfaceServices\\IStoreServices.cs",
+              "RelativeToolTip": "Services\\InterfaceServices\\IStoreServices.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA0AAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-30T16:02:05.982Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 12,
-              "Title": "AttendanceResponse.cs",
-              "DocumentMoniker": "D:\\billx\\Services\\DTOs\\ResponseDTO\\AttendanceResponse.cs",
-              "RelativeDocumentMoniker": "Services\\DTOs\\ResponseDTO\\AttendanceResponse.cs",
-              "ToolTip": "D:\\billx\\Services\\DTOs\\ResponseDTO\\AttendanceResponse.cs",
-              "RelativeToolTip": "Services\\DTOs\\ResponseDTO\\AttendanceResponse.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAkwBAAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-30T15:40:42.613Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "AccountServices.cs",
-              "DocumentMoniker": "D:\\billx\\Services\\ImplementServices\\AccountServices.cs",
-              "RelativeDocumentMoniker": "Services\\ImplementServices\\AccountServices.cs",
-              "ToolTip": "D:\\billx\\Services\\ImplementServices\\AccountServices.cs",
-              "RelativeToolTip": "Services\\ImplementServices\\AccountServices.cs",
-              "ViewState": "AgIAADgAAAAAAAAAAAAgwEgAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-30T15:47:07.086Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "IAccountServices.cs",
-              "DocumentMoniker": "D:\\billx\\Services\\InterfaceServices\\IAccountServices.cs",
-              "RelativeDocumentMoniker": "Services\\InterfaceServices\\IAccountServices.cs",
-              "ToolTip": "D:\\billx\\Services\\InterfaceServices\\IAccountServices.cs",
-              "RelativeToolTip": "Services\\InterfaceServices\\IAccountServices.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAmwBAAAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-30T15:43:04.078Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Account.cs",
-              "DocumentMoniker": "D:\\billx\\BusinessObject\\Account.cs",
-              "RelativeDocumentMoniker": "BusinessObject\\Account.cs",
-              "ToolTip": "D:\\billx\\BusinessObject\\Account.cs",
-              "RelativeToolTip": "BusinessObject\\Account.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-30T15:42:26.878Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AccountDAO.cs",
-              "DocumentMoniker": "D:\\billx\\DataAccessObject\\AccountDAO.cs",
-              "RelativeDocumentMoniker": "DataAccessObject\\AccountDAO.cs",
-              "ToolTip": "D:\\billx\\DataAccessObject\\AccountDAO.cs",
-              "RelativeToolTip": "DataAccessObject\\AccountDAO.cs",
-              "ViewState": "AgIAACMAAAAAAAAAAAAwwCwAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-30T15:42:19.67Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "AttendanceDAO.cs",
-              "DocumentMoniker": "D:\\billx\\DataAccessObject\\AttendanceDAO.cs",
-              "RelativeDocumentMoniker": "DataAccessObject\\AttendanceDAO.cs",
-              "ToolTip": "D:\\billx\\DataAccessObject\\AttendanceDAO.cs",
-              "RelativeToolTip": "DataAccessObject\\AttendanceDAO.cs",
-              "ViewState": "AgIAACsAAAAAAAAAAAAUwC0AAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-30T00:42:55.642Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "StoreDAO.cs",
-              "DocumentMoniker": "D:\\billx\\DataAccessObject\\StoreDAO.cs",
-              "RelativeDocumentMoniker": "DataAccessObject\\StoreDAO.cs",
-              "ToolTip": "D:\\billx\\DataAccessObject\\StoreDAO.cs",
-              "RelativeToolTip": "DataAccessObject\\StoreDAO.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAACYAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-30T16:02:35.502Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "AccountController.cs",
-              "DocumentMoniker": "D:\\billx\\billx\\Controllers\\AccountController.cs",
-              "RelativeDocumentMoniker": "billx\\Controllers\\AccountController.cs",
-              "ToolTip": "D:\\billx\\billx\\Controllers\\AccountController.cs",
-              "RelativeToolTip": "billx\\Controllers\\AccountController.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAwwDQAAABEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-30T15:36:08.206Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
               "Title": "StoreResponse.cs",
               "DocumentMoniker": "D:\\billx\\Services\\DTOs\\ResponseDTO\\StoreResponse.cs",
               "RelativeDocumentMoniker": "Services\\DTOs\\ResponseDTO\\StoreResponse.cs",
@@ -225,7 +286,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 10,
               "Title": "UnitServices.cs",
               "DocumentMoniker": "D:\\billx\\Services\\ImplementServices\\UnitServices.cs",
               "RelativeDocumentMoniker": "Services\\ImplementServices\\UnitServices.cs",
@@ -237,7 +298,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 15,
               "Title": "AccountResponse.cs",
               "DocumentMoniker": "D:\\billx\\Services\\DTOs\\ResponseDTO\\AccountResponse.cs",
               "RelativeDocumentMoniker": "Services\\DTOs\\ResponseDTO\\AccountResponse.cs",
@@ -249,7 +310,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 17,
               "Title": "IAttendanceServices.cs",
               "DocumentMoniker": "D:\\billx\\Services\\InterfaceServices\\IAttendanceServices.cs",
               "RelativeDocumentMoniker": "Services\\InterfaceServices\\IAttendanceServices.cs",
@@ -261,7 +322,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 19,
               "Title": "ProductTypeDAO.cs",
               "DocumentMoniker": "D:\\billx\\DataAccessObject\\ProductTypeDAO.cs",
               "RelativeDocumentMoniker": "DataAccessObject\\ProductTypeDAO.cs",
@@ -273,7 +334,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 20,
               "Title": "ProductTypeServices.cs",
               "DocumentMoniker": "D:\\billx\\Services\\ImplementServices\\ProductTypeServices.cs",
               "RelativeDocumentMoniker": "Services\\ImplementServices\\ProductTypeServices.cs",
@@ -285,7 +346,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 18,
               "Title": "ProductController.cs",
               "DocumentMoniker": "D:\\billx\\billx\\Controllers\\ProductController.cs",
               "RelativeDocumentMoniker": "billx\\Controllers\\ProductController.cs",
@@ -294,18 +355,6 @@
               "ViewState": "AgIAAAMAAAAAAAAAAAAAABQAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-29T16:33:01.57Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "AttendanceServices.cs",
-              "DocumentMoniker": "D:\\billx\\Services\\ImplementServices\\AttendanceServices.cs",
-              "RelativeDocumentMoniker": "Services\\ImplementServices\\AttendanceServices.cs",
-              "ToolTip": "D:\\billx\\Services\\ImplementServices\\AttendanceServices.cs",
-              "RelativeToolTip": "Services\\ImplementServices\\AttendanceServices.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-27T13:45:02.395Z"
             }
           ]
         }

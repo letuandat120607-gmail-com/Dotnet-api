@@ -3260,6 +3260,10 @@
       "ProductRequest": {
         "type": "object",
         "properties": {
+          "isWorking": {
+            "type": "boolean",
+            "nullable": true
+          },
           "productName": {
             "type": "string",
             "nullable": true
@@ -3278,6 +3282,12 @@
           },
           "status": {
             "type": "boolean"
+          },
+          "isTopping": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true,
+            "readOnly": true
           }
         },
         "additionalProperties": false
@@ -3303,6 +3313,14 @@
           "storeId": {
             "type": "string",
             "nullable": true
+          },
+          "isTopping": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "isWorking": {
+            "type": "boolean"
           },
           "ptId": {
             "type": "string",

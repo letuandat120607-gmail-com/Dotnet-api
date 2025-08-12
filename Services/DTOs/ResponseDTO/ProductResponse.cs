@@ -18,6 +18,9 @@ namespace Services.DTOs.ResponseDTO
 
         public string StoreId { get; set; } = null!;
 
+        public int? IsTopping { get; set; }
+        public bool IsWorking { get; set; }
+
         public string PtId { get; set; } = null!;
 
     }

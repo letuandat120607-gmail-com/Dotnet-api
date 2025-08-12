@@ -17,39 +17,44 @@ namespace Services.ImplementServices
     public class ProductServices : IProductServices
     {
         public ProductResponse CreateProduct(ProductRequest request)
+{
+    try
+    {
+        ProductDAO productDAO = ProductDAO.Instance;
+        Product create = new Product
         {
-            try
-            {
-                ProductDAO productsDAO = ProductDAO.Instance;
-                Product create = new Product(); 
-                create.ProductName = request.ProductName;
-                create.ImageLink = request.ImageLink;
-                create.StoreId = request.StoreId;
-                create.PtId = request.PtId;
+            ProductName = request.ProductName,
+            ImageLink = request.ImageLink,
+            StoreId = request.StoreId,
+            PtId = request.PtId,
+            IsTopping = request.IsTopping,
+            IsWorking = request.IsWorking ?? true
+        };
 
-                Product rs = ProductDAO.Instance.CreateProduct(create);
-                ProductResponse response = new ProductResponse
-                {
-                    ProductId = rs.ProductId,
-                    ProductName = rs.ProductName,
-                    ImageLink = rs.ImageLink,
-                    StoreId = rs.StoreId,
-                    PtId = rs.PtId,
-                    Status = true
-                };
+        Product rs = productDAO.CreateProduct(create);
 
-                return response;
+        return new ProductResponse
+        {
+            ProductId = rs.ProductId,
+            ProductName = rs.ProductName,
+            ImageLink = rs.ImageLink,
+            StoreId = rs.StoreId,
+            PtId = rs.PtId,
+            IsTopping = rs.IsTopping,
+            Status = rs.Status,
+            IsWorking = rs.IsWorking
+        };
 
-            }
-            catch (CrudException cex)
-            {
-                throw cex;
-            }
-            catch (Exception ex)
-            {
-                throw new CrudException(HttpStatusCode.InternalServerError, "Lỗi hệ thống!", ex?.Message);
-            }
-        }
+    }
+    catch (CrudException cex)
+    {
+        throw cex;
+    }
+    catch (Exception ex)
+    {
+        throw new CrudException(HttpStatusCode.InternalServerError, "Lỗi hệ thống!", ex?.Message);
+    }
+}
 
         public ProductResponse DeleteProduct(string id)
         {
@@ -107,7 +112,10 @@ namespace Services.ImplementServices
                     ProductName = product.ProductName,
                     ImageLink = product.ImageLink,
                     StoreId = product.StoreId,
-                    PtId = product.PtId
+                    PtId = product.PtId,
+                    IsTopping = product.IsTopping,
+                    Status = product.Status,
+                    IsWorking = product.IsWorking
                 };
                 return response;
             }
@@ -126,27 +134,28 @@ namespace Services.ImplementServices
             try
             {
                 ProductDAO productDAO = ProductDAO.Instance;
-                List<Product> products = productDAO.GetByName(request.ProductName);
+                List<Product> products = productDAO.GetByName(request.ProductName) ?? new List<Product>();
 
                 List<ProductResponse> rs = new List<ProductResponse>();
-                for (int i = 0; i < products.Count; i++)
+                foreach (var pro in products)
                 {
-                    Product pro = products[i];
-                    ProductResponse pr = new ProductResponse
+                    rs.Add(new ProductResponse
                     {
                         ProductId = pro.ProductId,
                         ProductName = pro.ProductName,
                         ImageLink = pro.ImageLink,
                         StoreId = pro.StoreId,
-                        PtId = pro.PtId
-                    };
-                    rs.Add(pr);
+                        PtId = pro.PtId,
+                        IsTopping = pro.IsTopping,
+                        Status = pro.Status,
+                        IsWorking = pro.IsWorking
+                    });
                 }
                 return rs;
             }
             catch (CrudException cex)
             {
-                throw cex;
+                throw;
             }
             catch (Exception ex)
             {

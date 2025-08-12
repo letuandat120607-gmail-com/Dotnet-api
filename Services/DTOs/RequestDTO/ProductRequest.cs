@@ -9,6 +9,7 @@ namespace Services.DTOs.RequestDTO
     public class ProductRequest
     {
 
+        public bool? IsWorking { get; set; }
         public string ProductName { get; set; } = null!;
 
         public string? ImageLink { get; set; }
@@ -18,6 +19,6 @@ namespace Services.DTOs.RequestDTO
         public string PtId { get; set; } = null!;
 
         public bool Status { get; set; }
-
+        public int? IsTopping { get; internal set; }
     }
 }
